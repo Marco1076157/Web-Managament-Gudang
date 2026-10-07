@@ -125,7 +125,7 @@ const Sidebar = ({ onLogout, collapsed, onToggleCollapse }) => {
         >
           <div className="flex items-center gap-2 min-w-0">
             <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center shrink-0">
-              <span className="text-white font-bold text-lg">M</span>
+              <img src="/logo.png" alt="Logo" className="w-8 h-8 rounded-lg object-contain shrink-0" />
             </div>
             {!collapsed && (
               <span className="font-bold text-lg text-slate-900 truncate">MONDAY</span>

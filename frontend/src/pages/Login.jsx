@@ -43,13 +43,14 @@ export default function Login() {
         
         {/* Logo & Header */}
         <div className="flex flex-col items-center text-center gap-2">
-          <div className="flex items-center gap-2 bg-blue-600 text-white font-extrabold px-5 py-2.5 rounded-2xl text-xl shadow-md">
-            <span className="bg-orange-500 text-white px-2 py-0.5 rounded-lg text-sm">M</span>
-            MONDAY
-          </div>
-          <h1 className="text-2xl font-bold text-slate-900 mt-2">Hey 👋, Welcome Back!</h1>
-          <p className="text-sm text-slate-500">Login to your account to continue!</p>
+        <div className="flex items-center gap-2 bg-blue-600 text-white font-extrabold px-5 py-2.5 rounded-2xl text-xl shadow-md">
+          {/* Ganti span M dengan img */}
+          <img src="/logo.png" alt="Logo" className="w-7 h-7 object-contain" />
+          MONDAY
         </div>
+        <h1 className="text-2xl font-bold text-slate-900 mt-2">Hey 👋, Welcome Back!</h1>
+        <p className="text-sm text-slate-500">Login to your account to continue!</p>
+      </div>
 
         {error && (
           <div className="bg-red-50 border border-red-200 text-red-600 text-xs font-semibold p-3 rounded-2xl text-center">
