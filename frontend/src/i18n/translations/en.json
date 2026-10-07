@@ -1,0 +1,37 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "search": "Search",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "actions": "Actions",
+    "loading": "Loading...",
+    "no_data": "No data",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "categories": "Categories",
+    "users": "Users",
+    "roles": "Roles",
+    "settings": "Settings"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "preferences": "Preferences",
+    "transaction_notification": "Transaction Notifications",
+    "transaction_notification_desc": "Get notified of new transactions from Keeper",
+    "low_stock_alert": "Low Stock Alert",
+    "low_stock_alert_desc": "Get warning when stock is low",
+    "language": "Language",
+    "language_indonesia": "Bahasa Indonesia",
+    "language_english": "English",
+    "saved": "Settings saved successfully"
+  }
+}

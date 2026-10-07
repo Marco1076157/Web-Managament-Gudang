@@ -1,0 +1,37 @@
+{
+  "common": {
+    "save": "Simpan",
+    "cancel": "Batal",
+    "close": "Tutup",
+    "search": "Cari",
+    "add": "Tambah",
+    "edit": "Edit",
+    "delete": "Hapus",
+    "actions": "Aksi",
+    "loading": "Memuat...",
+    "no_data": "Tidak ada data",
+    "yes": "Ya",
+    "no": "Tidak"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Produk",
+    "categories": "Kategori",
+    "users": "Pengguna",
+    "roles": "Role",
+    "settings": "Pengaturan"
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "profile": "Profil",
+    "preferences": "Preferensi",
+    "transaction_notification": "Notifikasi Transaksi",
+    "transaction_notification_desc": "Dapatkan notifikasi transaksi baru dari Keeper",
+    "low_stock_alert": "Alert Stok Menipis",
+    "low_stock_alert_desc": "Dapatkan peringatan saat stok menipis",
+    "language": "Bahasa",
+    "language_indonesia": "Bahasa Indonesia",
+    "language_english": "English",
+    "saved": "Pengaturan berhasil disimpan"
+  }
+}
