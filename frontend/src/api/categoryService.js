@@ -17,7 +17,11 @@ export const categoryService = {
   },
 
   update: async (id, data) => {
-    const response = await axiosInstance.put(`/categories/${id}`, data)
+    // Tambahkan spoofing method agar Laravel membaca FormData
+    if (data instanceof FormData) {
+        data.append('_method', 'PUT')
+    }
+    const response = await axiosInstance.post(`/categories/${id}`, data)
     return response.data
   },
 
