@@ -17,7 +17,10 @@ export const productService = {
   },
 
   update: async (id, data) => {
-    const response = await axiosInstance.put(`/products/${id}`, data)
+    if (data instanceof FormData) {
+        data.append('_method', 'PUT')
+    }
+    const response = await axiosInstance.post(`/products/${id}`, data)
     return response.data
   },
 
